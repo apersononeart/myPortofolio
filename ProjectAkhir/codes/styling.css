@@ -1,0 +1,393 @@
+body {
+	margin: 0;
+	overflow-y:scroll;
+	overflow-x: hidden;
+
+}
+
+.devider1 {
+	height: 3rem;
+	height: 3rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid rgba(0, 0, 0, 0.15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+	margin-top: 750px;
+}
+
+
+.devider2 {
+	height: 3rem;
+	height: 3rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid rgba(0, 0, 0, 0.15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+	margin-top: 1600px;
+}
+
+
+
+
+
+/* Header Design */
+.header {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(39, 39, 39);
+	width: 100%;
+	height: 60px;
+	position: fixed;
+}
+
+.header h5, ul {
+	padding: 0;
+	margin: 0;
+}
+
+.header h5 {
+	color: aliceblue;
+	padding: 19px;
+	margin-left: 35px;
+	font-size: 20px; 
+	float: left;
+}
+
+.header ul {
+	margin-right: 50px;
+}
+
+.header li {
+	float: right;
+	list-style: none;
+}
+
+.header li a {
+	font-size: 18px;
+	text-decoration: none;
+	color: aliceblue;
+	padding: 16px;
+	padding: 18px 25px;
+	display: block;
+}
+
+.header li a:hover {
+	background-color: rgb(24, 24, 24);
+	padding: 19px 25px;
+}
+
+
+
+
+
+
+
+
+/* introduction content, main page */
+
+.content {
+	margin: 0;
+}
+
+.bg-content {
+	width: 100%;
+	margin: 0;
+	opacity: 0.98;
+	position: absolute;
+	z-index: -1;
+	height: 750px;
+	background-image: url(wallpaper.png);
+	background-repeat: no-repeat;
+	background-size: 50%;
+	width: 2800px;
+}
+
+.desc-content {
+	color: aliceblue;
+	position: absolute;
+	top: 150px;
+	left: 160px;
+	z-index: -1;
+}
+
+.desc-content h1 {
+	margin-bottom: 0px;
+	font-size: 100px;
+}
+
+.desc-content h5 {
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/* Arrow */
+
+div.arrow {
+	margin-top: 260px;
+	width: 4.8vmin;
+	height: 4.8vmin;
+	box-sizing: border-box;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: rotate(135deg);
+	z-index: -1;
+	opacity: 0.88;
+}
+
+div.arrow::before {
+	content: '';
+	width: 100%;
+	height: 100%;
+	border-width: .8vmin .8vmin 0 0;
+	border-style: solid;
+	border-color: #fafafa;
+	transition: .2s ease;
+	display: block;
+	transform-origin: 100% 0;
+}
+
+div.arrow:after {
+	content: '';
+	float: left;
+	position: relative;
+	top: -100%;
+	width: 100%;
+	height: 100%;
+	border-width: 0 .8vmin 0 0;
+	border-style: solid;
+	border-color: #fafafa;
+	transform-origin: 100% 0;
+	transition:.2s ease;
+}
+
+div.arrow:hover::after {
+	transform: rotate(45deg);
+	border-color: rgb(228, 228, 228);
+	height: 120%;
+}
+
+div.arrow:hover::before {
+	border-color: rgb(228, 228, 228);
+	transform: scale(.8);
+	
+}
+
+
+.myPic {
+	background-image: url(myself.png);
+	background-size: cover;
+	height: 50%;
+	width: 30.5%;
+	display:block;
+	position: absolute;
+	block-size: 50%;
+	top: 202px;
+	right: 172px;
+	border-radius: 32% 68% 64% 36% / 35% 36% 64% 65% ;
+	z-index: -1;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:900&display=swap');
+
+.myPic1 {
+	background-image: url(Aqilah1.png);
+	background-size: cover;
+	border-radius: 41% 53% 33% 55% / 39% 49% 43% 48%;
+	display: block;
+	height: 350px;
+	width: 400px;
+	block-size: 400px;
+	z-index: -1;
+	top: 1000px;
+	left: 125px;
+	padding: 0px;
+	box-shadow: 0px 7px 12px 0px rgba(24, 24, 24, 0.16), 0px 10px 15px 0px rgba(24, 24, 24, 0.12), 0px 12px 17px 0px rgba(24, 24, 24, 0.09);
+	position: absolute;
+}
+
+.intro-desc {
+	z-index: -1;
+	position: absolute;
+	top: 970px;
+	right: 145px;
+	text-align: start;
+	padding: 2px 40px 2px 30px;
+	display: block;
+	border: 2px solid rgba(0, 0, 0, 0.7);
+	box-shadow: 20px 20px rgba(0, 0, 0, 0.7);
+	transition: 0.5s all ease;
+	border-radius: 2.5px;
+}
+
+.intro-desc:hover {
+	box-shadow: 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+.intro-desc h2 {
+	color: rgb(0, 0, 0);
+	font-size: 60px;  
+	font-weight: 800px;
+	z-index: -1;
+}
+
+.introone {
+	padding-top: 0px;
+	margin-top: 30px;
+	margin-left: 7px;
+	margin-bottom: 0px;
+}
+
+.introtwo {
+	padding-top: 0px;
+	margin-top: -10px;
+	margin-left: 7px;
+	margin-bottom: 5px;
+}
+
+.intro-desc h2 span:hover {
+	background-size: 100%;
+}
+
+.intro-desc h6 {
+	margin-top: 0px;
+	color:#000000e2;
+	font-size: 19px;
+	top: 1000px;
+	padding-left: 12px;
+	font-family:'Times New Roman';
+	/* box-shadow: 10px 7px 12px rgba(24, 24, 24, 0.16);
+	background-image: url(crumbled\ paper.png);
+	padding: 22px;
+	border-radius: 5.5px; */
+}
+
+
+
+
+
+
+
+.intro1 {
+	position: absolute;
+	z-index: -1;
+	top: 1700px;
+}
+
+.myPic1 {
+	border-radius: 64% 49% 33% 55% / 49% 63% 36% 50% ;
+}
+
+.wave {
+	background-color: rgb(239, 209, 173);
+	height: 500px;
+	width: 1440px;
+	top: 2000px;
+}
+
+.wave1 {
+	margin-bottom: -10px;
+	transform: scaleX(1);
+}
+
+.wave2 {
+	margin-top: -300px;
+	transform: scaleX(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.title1 h2{
+	font-size: 50px;
+	position: absolute;
+	top: 2755px;
+	padding-top: 120px;
+	width: 100%;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.861);
+	z-index: -1;
+}
+
+.flex-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 0;
+	border-radius: 1px;
+}
+
+.flex-box > div {
+	background-color: rgb(152, 150, 150);
+	margin: 0 32px;
+	padding: 190px 120px;
+	position:relative;
+	z-index: -1;
+	border-radius: 5px;
+	top: 3025px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: 0.22s all ease;
+	box-shadow: 0px 5px 10px 0px rgba(24, 24, 24, 0.25), 0px 10px 15px 0px rgba(24, 24, 24, 0.1);
+}
+
+.flex-box1 {
+	background-image: url(math.png);
+}
+
+.flex-box2 {
+	background-image: url(coding1.png);
+}
+
+.flex-box3 {
+	background-image: url(books2.png);
+}
+
+.flex-box4 {
+	background-image: url(music.png);
+}
+
+.flex-box > div:hover {
+	background-color: rgb(152, 150, 150);
+	margin: 0 32px;
+	padding: 190px 120px;
+	position:relative;
+	z-index: -1;
+	border-radius: 5px;
+	top: 3005px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.flex-box p {
+	position: absolute;
+	top: 0;
+	width: 0%;
+	height: 85%;
+	display: flex;
+	align-items: center; /** Y-axis align **/
+	justify-content: center; /** X-axis align **/
+	font-size: 25px;
+	color: #fafafabc;
+}

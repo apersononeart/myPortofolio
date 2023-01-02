@@ -1,0 +1,108 @@
+.sertificate {
+    text-align: center;
+    position: absolute;
+    top: 1675px;
+    left: 7.7%;
+}
+
+.third {
+    height: 760px;
+}
+
+.fourth {
+    margin-top: 56px;
+}
+
+.fifth {
+    margin-top: 330px;
+}
+  
+.ser > .myItem:hover {
+    top: -10px;
+}
+  
+.ser-desc {
+    margin-bottom: 30px;
+}
+
+.ser-desc h1, .ser-desc p, .myItem p {
+    color: rgb(54, 54, 54);
+}
+  
+.ser-desc h1 {
+    font-size: 45px;
+    margin-bottom: -15px;
+}
+  
+.ser-desc p {
+    font-size: 25px;
+    margin-bottom: 32px;
+}
+  
+.first-row, .second-row, .third-row, 
+.forth-row, .fifth-row, .sixth-row {
+    display: flex;
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.first-row img, .second-row img {
+    border: 1px solid rgba(54, 54, 54, 0.1);
+}
+  
+.second-row, .forth-row {
+    margin-left: 150px;
+}
+
+.third-row, .forth-row {
+    top: 1000px;
+}
+  
+.myItem img {
+    margin: 25px 20px;
+    width: 225px;
+    height: 150px;
+    display: flex;
+    transition: 0.3s all ease-out;
+}
+  
+.myItem img:hover {
+    z-index: 2;
+    margin-top: -0.5px;
+    cursor: pointer;
+}
+
+.myItem p {
+    font-size: 19px;
+    margin-top: -10px;
+}
+
+.popup-image {
+    position: fixed;
+    z-index: 100;
+    height: 100%;
+    width: 100%;
+    top: 0; 
+    left: 0;
+    background: rgb(0 0 0 / 20%);
+    display: none;
+}
+  
+.popup-image img {
+    position: absolute;
+    height: 470px;
+    width: 720px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.popup-image span {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
